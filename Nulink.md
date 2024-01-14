@@ -141,7 +141,7 @@ chmod -R 777 /root/nulink
 
 ## Requesting tBNB tokens
 
-Then we go to **[/dashboard](https://dashboard.testnet.nulink.org/staking)** and request tBNB tokens
+Then we go to **[dashboard](https://dashboard.testnet.nulink.org/staking)** and request tBNB tokens
 
 
 Once we receive the tokens, we send them to the operator's address (EVM)
@@ -150,22 +150,49 @@ Once we receive the tokens, we send them to the operator's address (EVM)
 
 
 
+
 Let's set variables with our password . Enter the password you made up earlier
 
-```
-export NULINK_KEYSTORE_PASSWORD=<YOUR NULINK STORAGE PASSWORD>
-```
+
 
 ```
 export NULINK_KEYSTORE_PASSWORD=<YOUR NULINK STORAGE PASSWORD>
 ```
+
+
+
+```
+export NULINK_KEYSTORE_PASSWORD=<YOUR NULINK STORAGE PASSWORD>
+```
+
+
+
 
 customize the configuration according to your data
 
 Replace the values in these lines with your own values:
 
-- signer keystore
-- operator-address
+replace **zzzzzzzzzz** with your values
+
+
+```
+docker run -it --rm \
+-p 9151:9151 \
+-v /root/nulink:/code \
+-v /root/nulink:/home/circleci/.local/share/nulink \
+-e NULINK_KEYSTORE_PASSWORD \
+nulink/nulink nulink ursula init \
+--signer keystore:///code/zzzzzzzzzzzzzzzzzzzzzzzzzzz \
+--eth-provider https://data-seed-prebsc-2-s2.binance.org:8545 \
+--network horus \
+--payment-provider https://data-seed-prebsc-2-s2.binance.org:8545 \
+--payment-network bsc_testnet \
+--operator-address zzzzzzzzzzzzzzzzzzzzzzzzzzzzz \
+--max-gas-price 10000000000
+```
+
+
+
 
 ## Example:
 
