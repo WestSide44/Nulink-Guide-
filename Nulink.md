@@ -27,7 +27,7 @@ You can rent the cheapest server to install a node
 The next step is to connect to the server for this I use MobaXterm
 
 
-[![2.png](https://i.postimg.cc/hGXdKywP/2.png)](https://postimg.cc/Z9hRcc41)
+[![2-1-1.png](https://i.postimg.cc/Xqwx8mnx/2-1-1.png)](https://postimg.cc/2LS4jHbB)
 
 
 # Server preparation
