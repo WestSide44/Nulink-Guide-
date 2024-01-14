@@ -198,6 +198,17 @@ docker run --restart on-failure -d \
 nulink/nulink nulink ursula run --no-block-until-ready
 ```
 
-Let's check the node logs
+## Node activation 
+After starting the node, we need to activate it. Go to the **[/dashboard](https://dashboard.testnet.nulink.org/staking)** and click **BOND WORKER** and enter the address of your operator, confirm the transaction and wait 30 minutes for the node to change its status to **ONLINE**
 
+[![image.png](https://i.postimg.cc/kD3Pp0rH/image.png)](https://postimg.cc/n9kWswhK)
+
+
+
+Let's check the node logs
+```
 docker logs -f ursula
+```
+
+If you see this result, it means that your node is working fine 
+[![image.png](https://i.postimg.cc/c1Dpt8rz/image.png)](https://postimg.cc/BtKYdb55)
