@@ -142,6 +142,13 @@ replace **$$$$$$** with your key that you generated earlier
 cp /root/geth-linux-amd64-1.10.23-d901d853/keystore/$$$$$$$$$$$ /root/nulink
 ```
 
+## Example
+
+```
+cp /root/geth-linux-amd64-1.10.23-d901d853/keystore/UTC--2023-12-31T17-42-14.316243885Z--f3defb90c2f03e904bd9662a1f16dcd1ca69b00a /root/nulink
+``` 
+
+
 
 ## give this directory permissions 777
 
