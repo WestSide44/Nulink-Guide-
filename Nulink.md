@@ -12,7 +12,10 @@
 You can rent a vps on **[Contabo](https://contabo.com/en/vps-c/)** or **[hetzner](https://www.hetzner.com/)**
 
 
+
+
 Let's look at server rental using **[Contabo](https://contabo.com/en/vps-c/)** as an example
+
 
 
 
@@ -27,7 +30,14 @@ You can rent the cheapest server to install a node
 The next step is to connect to the server for this I use MobaXterm
 
 
+
+
+
 [![2-1-1.png](https://i.postimg.cc/Xqwx8mnx/2-1-1.png)](https://postimg.cc/2LS4jHbB)
+
+
+
+
 
 
 # Server preparation
@@ -237,5 +247,10 @@ Let's check the node logs
 docker logs -f ursula
 ```
 
+
 If you see this result, it means that your node is working fine 
+
+
+
+
 [![image.png](https://i.postimg.cc/c1Dpt8rz/image.png)](https://postimg.cc/BtKYdb55)
