@@ -9,7 +9,7 @@
 - 30GB available storage / 4GB RAM
 
 
-You can rent a vps on **[Contabo](https://contabo.com/en/vps-c/)** or **[hetzner](https://www.hetzner.com/)*
+You can rent a vps on **[Contabo](https://contabo.com/en/vps-c/)** or **[hetzner](https://www.hetzner.com/)**
 
 
 Let's look at server rental using **[Contabo](https://contabo.com/en/vps-c/)** as an example
@@ -138,6 +138,17 @@ cp /root/geth-linux-amd64-1.10.23-d901d853/keystore/$$$$$$$$$$$ /root/nulink
 ```
 chmod -R 777 /root/nulink
 ```
+
+## Requesting tBNB tokens
+
+Then we go to **[/dashboard](https://dashboard.testnet.nulink.org/staking)** and request tBNB tokens
+
+
+Once we receive the tokens, we send them to the operator's address (EVM)
+
+[![image.png](https://i.postimg.cc/bNLfCSJx/image.png)](https://postimg.cc/vc1KDB5T)
+
+
 
 Let's set variables with our password . Enter the password you made up earlier
 
