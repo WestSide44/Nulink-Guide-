@@ -4,7 +4,7 @@
 
 - Ubuntu 20.04
   
-  Minimum System Requirements
+- Minimum System Requirements
 
 - 30GB available storage / 4GB RAM
 
